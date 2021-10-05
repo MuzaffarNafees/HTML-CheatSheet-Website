@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-CheatSheat by Muzaffar Nafees</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    
+</head>
+<body>
+
+    <nav>
+      <span class="logo"><img src="copy2.png" alt=""></span>
+      <div class="content center">
+          HTML Cheat Sheat By Muzaffar Nafees
+        </div>
+        <span class="logo"><img src="copy2.png" alt=""></span>
+    </nav>
+
+<div class="discription">In this CheatSheet I am writing all important tags that we use daily life in HTML world. So Go Ahead.....</div>
+
+
+
+    <div class="container">
+        <ol>
+            <li><h2>HTML Boilerplate</h2></li>
+
+            <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;   
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+
+
+<li><h2>Headings</h2></li>
+
+<pre class="language-html"><code>&lt;!-- For Extra large fonts --&gt;
+&lt;h1&gt;Muzaffar Nafees&lt;/h1&gt;
+
+&lt;!-- For medium fonts --&gt;
+&lt;h3&gt;Muzaffar Nafees khan&lt;/h3&gt;
+
+&lt;!-- For small fonts --&gt;
+&lt;h6&gt;Muzaffar&lt;/h6&gt;
+</code>
+</pre>
+
+
+
+
+<li><h2>Container</h2></li>
+<p>Container tags are the tags that contain some data such as text, image, etc. There are several container tags in HTML.</p>
+<h3>div tag</h3>
+<p>div tag or division tag is used to make blocks or divisions in the document.</p>
+
+<pre class="language-html"><code>&lt;div&gt; This is div block &lt;/div&gt;</code></pre>
+
+<h3>span tag</h3>
+<p>span is a container for inline content</p>
+<pre class="language-html"><code>&lt;span&gt; You Know Muzaffar!! This is span block &lt;/span&gt;</code></pre>
+
+<h3>p tag</h3>
+<p>Paragraph</p>
+
+<pre class="language-html"><code>&lt;p&gt; This is a paragraph &lt;/p&gt;</code></pre>
+<h3>pre tag</h3>
+<p>pre tag represents pre-formatted text</p>
+<pre class="language-html"><code>&lt;pre&gt; Hello World &lt;/pre&gt;</code></pre>
+
+<h3>code tag</h3>
+<p>code tag is used to represent source codes</p>
+<pre class="language-markup"><code>&lt;code&gt;
+import python
+&lt;/code&gt;</code></pre>
+
+<li><h2>Text Formatting</h2></li>
+<p>Text formatting tags are used to format text or data of HTML documents. You can do certain things like creating italic, bold, strong text to make your document look more attractive and understandable.</p>
+<h3>&lt;b&gt; tag</h3>
+<pre class="language-html"><code>&lt;b&gt;I'm bold text&lt;/b&gt;</code></pre>
+
+<h3>&lt;strong&gt; tag</h3>
+<pre class="language-html"><code>&lt;strong&gt;I'm important text&lt;/strong&gt;</code></pre>
+
+<h3>&lt;i&gt; tag</h3>
+<pre class="language-html"><code>&lt;i&gt;I'm italic text&lt;/i&gt;</code></pre>
+
+<h3>&lt;em&gt; tag</h3>
+<pre class="language-html"><code>&lt;em&gt;Emphasized text&lt;/em&gt;</code></pre>
+
+<h3>&lt;sub&gt; tag</h3>
+<pre class="language-html"><code>&lt;sub&gt;Subscript&lt;/sub&gt;</code></pre>
+
+<h3>&lt;sup&gt; tag</h3>
+<pre class="language-html"><code>&lt;sup&gt;Superscript&lt;/sup&gt;</code></pre>
+
+<li><h2>Lists</h2></li>
+<p>Lists can be either numerical, alphabetic, bullet, or other symbols. You can specify list type and list items in HTML for the clean document.</p>
+<h3>&lt;ol&gt; tag</h3>
+<p>Ordered list starts with &lt;ol&gt; tag and each list item starts with &lt;li&gt; tag</p>
+<pre class="language-html"><code>&lt;ol&gt;
+&lt;li&gt;Data 1&lt;/li&gt;
+&lt;li&gt;Data 2&lt;/li&gt;
+&lt;li&gt;Data 3&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+<h3>&lt;ul&gt; tag</h3>
+<pre class="language-html"><code>&lt;ul&gt;
+&lt;li&gt;Your Data&lt;/li&gt;
+&lt;li&gt;Your Data&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+
+<li><h2>Media</h2></li>
+<p>Media is anything that is present in digital form such as image, video, audio, etc.</p>
+<h3>&lt;audio&gt; tag</h3>
+<p>It is used to embed sound content in the document.</p>
+<pre class="language-html"><code>&lt;audio controls&gt;
+&lt;source src="demo.mp3" type="audio/mpeg"&gt;
+Your browser does not support the audio element.
+&lt;/audio&gt;</code></pre>
+
+
+<h3>&lt;img&gt; tag</h3>
+<p>It is used to embed or import image in a webpage.</p>
+<pre class="language-html"><code>&lt;img src="Source_of_image" alt="Alternate text"&gt;</code></pre>
+
+<h3>&lt;video&gt; tag</h3>
+<p>It is used to embed video in the webpage.</p>
+<pre class="language-html"><code>&lt;video width="480" height="320" controls&gt;
+&lt;source src="demo_move.mp4" type="video/mp4"&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;</code></pre>
+
+<li><h2>Table</h2></li>
+<p>A table is a collection of rows and columns. It is used to represent data in tabular form.</p>
+<h3>Table Structure</h3>
+<pre class="language-html"><code>&lt;table&gt;
+&lt;caption&gt;Demo Table&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Column1&lt;/th&gt;
+&lt;th colspan="2"&gt;Column2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Data1&lt;/td&gt;
+&lt;td&gt;Data2&lt;/td&gt;
+&lt;td&gt;Data2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Data1&lt;/td&gt;
+&lt;td&gt;Data2&lt;/td&gt;
+&lt;td&gt;Data2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tfoot&gt;
+&lt;tr&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td&gt;Data&lt;/td&gt;
+&lt;td&gt;Data&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+        </ol>
+    </div>
+</table>
+
+
+
+
+<div class="footer">
+
+    <div class="des">
+
+        <footer>
+            <p> Developed and Designed by: Muzaffar Nafees<br>
+            <a href="mailto:muzaffarnafees536@gmail.com">muzaffarnafees536@gmail.com</a></p>
+          </footer>
+    </div>
+
+
+
+
+</div>
+
+
+
+    
+</body>
+</html>
